@@ -26,14 +26,14 @@ public class MyApplication extends Application {
 
         imageOptions=new ImageOptions.Builder().setFailureDrawableId(R.mipmap.ic_launcher)
                 .setLoadingDrawableId(R.mipmap.ic_launcher)
-                //.setCircular(true)
-               // .setRadius(20)
+                .setCircular(true)
+               .setRadius(100)
                 .setConfig(Bitmap.Config.RGB_565)
                 .setCrop(true)
                 //.setAnimation()
                 .setImageScaleType(ImageView.ScaleType.FIT_CENTER)
-                .setSquare(true)
-                .setSize(300,300)
+                //.setSquare(true)
+               // .setSize(300,300)
                 .setFadeIn(true)
                 .setUseMemCache(true)
                 .build();
