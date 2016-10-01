@@ -23,5 +23,8 @@ public class APIUtils {
     public static String getPic(){
         return "http://pimg1.126.net/movie/product/movie/146847942056711068_148_197_webp.jpg";
     }
+  public static String getPic1(){
+        return "http://pimg1.126.net/movie/product/movie/146847942056711068_148_197_webp.jpg";
+    }
 
 }
